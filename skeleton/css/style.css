@@ -1,0 +1,53 @@
+li {
+  list-style: none;
+}
+.tower {
+  height: 200px;
+  width: 200px;
+  border-bottom: 2px solid black;
+  /* position: absolute; */
+  margin-right: 30px;
+  padding: 20px;
+border-radius: 50%; 
+}
+
+.disc {
+  height: 8%;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: -10px;
+  top: 100px;
+  padding: 10px 0px;
+  border-radius: 45%;
+  background-color: #593001;
+  position: relative;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.tower:hover{
+  background-color: yellow;
+
+}
+
+
+.hanoi {
+  width: 500px;
+  height: 500px;
+}
+
+.towers {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width: 600px;
+}
+
+
+.hanoi {
+  width: 600px;
+  margin: 0 auto;
+}
